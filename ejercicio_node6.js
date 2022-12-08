@@ -35,6 +35,6 @@ console.log(pelis_titulos);
 const pelis_directores_titulo = pelis_directores.concat(pelis_titulos);
 console.log(pelis_directores_titulo);
 
-// EX9 - Una nueva lista que concatene la lista de directores y la lista de los títulos (utilizando el factor de propagación)
+// EX9
 const peliculas = [...pelis_directores, ...pelis_titulos];
 console.log(peliculas);
